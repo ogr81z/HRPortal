@@ -695,5 +695,32 @@
       "package" : "com.hrdb.Employee"
     } ],
     "package" : "com.hrdb.Employee"
+  },
+  "svGeoCode" : {
+    "_id" : "wm-svGeoCode-wm.ServiceVariable-1492021808343",
+    "name" : "svGeoCode",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ {
+      "target" : "address",
+      "value" : "bind:Widgets.livelist1.selecteditem.zip",
+      "type" : "string"
+    } ],
+    "type" : "googleapis.RootResponse",
+    "service" : "googleapis",
+    "operation" : "invoke",
+    "operationId" : "googleapis_RestServiceVirtualController-invoke",
+    "operationType" : "get",
+    "serviceType" : "RestService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "designMaxResults" : 10,
+    "startUpdate" : false,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "controller" : "RestServiceVirtual"
   }
 }

@@ -19,7 +19,9 @@
                             </wm-listtemplate>
                         </wm-livelist>
                     </wm-gridcolumn>
-                    <wm-gridcolumn name="gridcolumn2" columnwidth="7"></wm-gridcolumn>
+                    <wm-gridcolumn name="gridcolumn2" columnwidth="7">
+                        <wm-prefab lng="geometry.location.lng" lat="geometry.location.lat" locations="bind:Variables.svGeoCode.dataSet.results" name="googlemaps1" prefabname="googlemaps"></wm-prefab>
+                    </wm-gridcolumn>
                 </wm-gridrow>
             </wm-layoutgrid>
         </wm-page-content>
